@@ -15,7 +15,7 @@ const eqArrays = function(arr1, arr2) {
       for(let i = 0; i < arr1.length; i++){
         result.push(arr1[i] === arr2[i]);
       }
-      return result.includes(false)
+      return !result.includes(false)
     }
   } else {
     return false
@@ -28,6 +28,6 @@ assertEqual(eqArrays([1,2,3],[1,2,'3']),true);
 assertEqual(eqArrays([1,2,3],[1,2,'3']),false);
 assertEqual(eqArrays([1,2,3],[1,2]),true);
 assertEqual(eqArrays([],[]),true);
-
+assertEqual(eqArrays(['1','2','3'],['1','2','3']),true);
 
 
