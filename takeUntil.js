@@ -29,14 +29,14 @@ const takeUntil = function(array, callback) {
   // stop where condition matched
   
   let result = [];
-  for(let val of array){
-    if(callback(val)){
+  for (let val of array) {
+    if (callback(val)) {
       break;
     }
     result.push(val);
   }
   return result;
-}
+};
 
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
