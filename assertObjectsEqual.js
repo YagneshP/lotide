@@ -39,5 +39,5 @@ assertObjectEqual({a :3, b : 2},{b: 2, a: 1});
 assertObjectEqual({a :[1,'2'], b : 2},{b: 2, a: [1, '2']});
 assertObjectEqual({a :[1,'2',3], b : 2},{b: 2, a: [1, '2']});
 
-
+module.exports = assertObjectEqual;
 
