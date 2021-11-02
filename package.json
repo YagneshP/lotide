@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@yagnesh_parekh/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "This is a education demo project which is simple clone of Loadsh",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/YagneshP/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "yagnesh parekh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YagneshP/lotide/issues"

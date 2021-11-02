@@ -1,9 +1,9 @@
 const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
-const assertArrayEqual = require('./assertArraysEqual');
-const assertEqual = require('./assertEqual');
-const assertObjectEqual = require('./assertObjectsEqual');
+// const assertArrayEqual = require('./assertArraysEqual');
+// const assertEqual = require('./assertEqual');
+// const assertObjectEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const findKey = require('./findKey');
@@ -16,9 +16,6 @@ module.exports = {
   head,
   tail,
   middle,
-  assertArrayEqual,
-  assertEqual,
-  assertObjectEqual,
   countLetters,
   countOnly,
   findKey,
